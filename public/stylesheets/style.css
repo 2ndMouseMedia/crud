@@ -1,0 +1,105 @@
+
+
+/*body*/
+		body {
+					background: #8B8386;
+					font: 90% "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+					text-align: left;
+					margin: 0px;
+					padding: 0px;
+					height:100%
+					}
+									/*h1*/
+		h1 {
+					color: #800000;
+					font: 180%;
+					text-align: center;
+					}
+					
+													/*h2*/
+		h2 {
+					color: #800000;
+					font: 160%;
+					text-align: center;
+					}
+					
+								/*h1*/
+		p {
+					color: #800000;
+					font: 140%;
+					text-align: center;
+					}
+					
+		.imageCenter {margin-left: 250px;}
+
+
+
+/*container*/
+		#wrapper {
+					padding: 0px;
+					height:100%;
+					min-height: 1200px;
+					width: 1024px;
+					margin-top: auto;
+					margin-right: auto;
+					margin-bottom: 0px;
+					margin-left: auto;
+					position: relative; 
+					display:block; 
+					overflow:hidden;
+					background-color: #fff;		
+					box-shadow: 0px 0px 8px 0px  #191970;
+					}
+					
+	
+
+#userList {
+	text-align: center;
+	clear: both;
+	
+}
+	#userList table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+		margin-left: 300px;
+		width: 400px;
+	}
+		#userList table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#userList table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#userList table td {
+					background-color: #ffffff;
+					border:  none;
+					margin: 0px;
+					padding: 0px;
+					width: 100px;
+					}
+
+#userInfo {
+	text-align: center;
+	clear: both;
+	width: 400px;
+	margin-left: 300px;
+}
+	#userInfo p {
+	text-align: left;
+		padding:15px;
+		border:1px solid #CCC;
+		background:rgba(80,120,255,0.05);
+	}
+
+fieldset {
+	border:0;
+	padding:0;
+	width: 400px;
+	margin-left: 300px;
+}
